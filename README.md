@@ -1,3 +1,16 @@
+- [Just in case...](#just-in-case)
+- [Getting Started](#getting-started)
+- [Deploy on Vercel](#deploy-on-vercel)
+
+## Just in case...
+
+```bash
+git remote add origin <remote repo URL>
+git push -u -f origin main
+```
+
+---
+
 ## Getting Started
 
 First, run the development server:
@@ -9,6 +22,8 @@ yarn dev
 # or
 pnpm dev
 ```
+
+---
 
 ## Deploy on Vercel
 
