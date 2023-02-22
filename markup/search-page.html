@@ -1,0 +1,93 @@
+<main className="min-h-screen w-screen bg-gray-100">
+  <div className="m-auto max-w-screen-2xl bg-white">
+    {/* NAVBAR */}
+    <nav className="flex justify-between bg-white p-2">
+      <a href="someStuffs" className="text-2xl font-bold text-gray-700">
+        Les Gastropodes
+      </a>
+      <div>
+        <div className="flex">
+          <button className="mr-3 rounded border bg-blue-400 py-1 px-4 text-white">
+            Sign in
+          </button>
+          <button className="rounded border py-1 px-4">Sign out</button>
+        </div>
+      </div>
+    </nav>
+    {/* NAVBAR */}
+    {/* HEADER */}
+    <div className="bg-gradient-to-r from-[#0f1f47] to-[#5f6984] p-2">
+      {/* SEARCH BAR */}
+      <div className="m-auto flex justify-center py-3 text-left text-lg">
+        <input className="w-74 mr-3 w-[450px] rounded p-2" type="text" placeholder="State, city or town" />
+        <button className="rounded bg-red-600 px-9 py-2 text-white">
+          Let&apos; go
+        </button>
+      </div>
+      {/* SEARCH BAR */}
+    </div>
+    {/* */}
+    <div className="m-auto flex w-2/3 items-start justify-between py-4">
+      {/* SEARCH SIDE BAR */}
+      <div className="w-1/5">
+        <div className="border-b pb-4">
+          <h1 className="mb-2">Region</h1>
+          <p className="text-reg font-light">Mexico City</p>
+          <p className="text-reg font-light">Tijuana</p>
+          <p className="text-reg font-light">Ecatepec</p>
+          <p className="text-reg font-light">León</p>
+          <p className="text-reg font-light">Puebla</p>
+          <p className="text-reg font-light">Ciudad Juárez</p>
+        </div>
+        <div className="mt-3 border-b pb-4">
+          <h1 className="mb-2">Cuisine</h1>
+          <p className="text-reg font-light">Mexican</p>
+          <p className="text-reg font-light">Indian</p>
+          <p className="text-reg font-light">Italian</p>
+          <p className="text-reg font-light">Chinese</p>
+          <p className="text-reg font-light">American</p>
+        </div>
+        <div className="mt-3 pb-4">
+          <h1 className="mb-2">Price</h1>
+          <div className="flex">
+            <button className="w-full rounded-l border p-2 text-reg font-light">
+              $
+            </button>
+            <button className="w-full border-r border-t border-b p-2 text-reg font-light">
+              $$
+            </button>
+            <button className="w-full rounded-r border-r border-t border-b p-2 text-reg font-light">
+              $$$
+            </button>
+          </div>
+        </div>
+      </div>
+      {/* SEARCH SIDE BAR */}
+      <div className="w-5/6">
+        {/* RESTAURANT CARD */}
+        <div className="flex border-b pb-5">
+          <img src="https://images.otstatic.com/prod1/49153814/2/medium.jpg" alt="" className="w-44 rounded" />
+          <div className="pl-5">
+            <h2 className="text-3xl">City Wok</h2>
+            <div className="flex items-start">
+              <div className="mb-2 flex">*****</div>
+              <p className="ml-2 text-sm">Awesome</p>
+            </div>
+            <div className="mb-9">
+              <div className="flex text-reg font-light">
+                <p className="mr-4">$$$</p>
+                <p className="mr-4">Mexican</p>
+                <p className="mr-4">Mexico city</p>
+              </div>
+            </div>
+            <div className="text-red-600">
+              <a href="someStuffes">View more information</a>
+            </div>
+          </div>
+        </div>
+        {/* RESTAURANT CARD */}
+      </div>
+    </div>
+    {/* */}
+  </div>
+</main>
